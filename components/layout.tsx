@@ -1,13 +1,21 @@
 import Head from 'next/head'
+import Footer from './footer'
 import styles from './layout.module.css'
+import Navbar from './Navbar'
 
-export default function Layout({ children }) {
+const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
         <title>Layouts Example</title>
       </Head>
+
+      <Navbar />
+
       <main className={styles.main}>{children}</main>
+
+      <Footer />
     </>
   )
 }
+export default Layout
