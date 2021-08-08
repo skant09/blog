@@ -5,7 +5,8 @@
   text-align: center;
 }
 
-.main section {
-  width: 100%;
+.main > section {
+  width: 80%;
   padding-bottom: 1rem;
+  margin: 0 auto;
 }

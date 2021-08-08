@@ -29,6 +29,7 @@ body main {
   min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
   font-size: 1.6rem;
 }
+
 footer {
   height: var(--footer-height);
   font-size: 1.5rem;

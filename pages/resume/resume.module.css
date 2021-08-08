@@ -4,6 +4,15 @@
 .resume span {
   padding: 0.1rem 0;
 }
+.resume .resume_body {
+  margin: 0 auto;
+}
+.resume_body section {
+  margin: 1rem 0;
+}
+.resume_body section strong {
+  margin: 1rem 0;
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -21,11 +30,16 @@
   align-self: flex-end;
   text-align: right;
 }
-.resume strong {
+.resume h2 {
   font-size: 1.5rem;
   color: #2196f3;
   padding-bottom: 1rem;
 }
+.resume details,
 .resume details p {
-  padding: 1rem 0;
+  padding: 0.8rem 0;
+}
+.resume details p {
+  padding-top: 1rem;
+  margin-left: 2rem;
 }
