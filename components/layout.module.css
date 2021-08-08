@@ -1,6 +1,11 @@
 .main {
+  width: 100%;
+  max-width: var(--global-width);
+  margin: 0 auto;
+  text-align: center;
 }
 
-.main > section {
-  padding: 32px;
+.main section {
+  width: 100%;
+  padding-bottom: 1rem;
 }

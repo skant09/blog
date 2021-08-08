@@ -11,10 +11,10 @@ const Navbar = (): JSX.Element => {
         </ul>
         <ul className="right">
           <li>
-            <a href="/Notes">Notes</a>
+            <a href="/notes">Notes</a>
           </li>
           <li>
-            <a href="/Resume">Resume</a>
+            <a href="/resume">Resume</a>
           </li>
         </ul>
       </nav>

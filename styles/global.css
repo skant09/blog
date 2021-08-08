@@ -1,0 +1,34 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --global-rem: 10px;
+  --global-width: 1200px;
+  --navbar-height: 3rem;
+  --footer-height: 3rem;
+}
+
+html,
+body {
+  font-size: var(--global-rem);
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+body main {
+  max-width: calc(var(--global-width) * 0.8);
+  min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
+  font-size: 1.6rem;
+}
+footer {
+  height: var(--footer-height);
+  font-size: 1.5rem;
+}
+nav {
+  height: var(--navbar-height);
+  font-size: 1.5rem;
+}

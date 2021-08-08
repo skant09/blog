@@ -7,7 +7,7 @@ export const Home = (): JSX.Element => (
       <link rel="icon" href="/sun_flare.ico" />
     </Head>
 
-    <main>
+    <div>
       <h1 className="title">Welcome to Suryakant&apos;s blog</h1>
 
       <div className="grid">
@@ -21,11 +21,10 @@ export const Home = (): JSX.Element => (
           <p>Find my resume here</p>
         </a>
       </div>
-    </main>
+    </div>
 
     <style jsx>{`
       .container {
-        min-height: 100vh;
         padding: 0 0.5rem;
         display: flex;
         flex-direction: column;
@@ -128,20 +127,6 @@ export const Home = (): JSX.Element => (
           width: 100%;
           flex-direction: column;
         }
-      }
-    `}</style>
-
-    <style jsx global>{`
-      html,
-      body {
-        padding: 0;
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-          Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-      }
-
-      * {
-        box-sizing: border-box;
       }
     `}</style>
   </div>

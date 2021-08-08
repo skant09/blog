@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Footer from './footer'
 import styles from './layout.module.css'
-import Navbar from './Navbar'
+import Navbar from './navbar'
 
 const Layout: React.FC = ({ children }) => {
   return (

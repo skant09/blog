@@ -1,0 +1,28 @@
+.resume {
+  text-align: left;
+}
+.resume span {
+  padding: 0.1rem 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.header .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .right {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  text-align: right;
+}
+.resume strong {
+  font-size: 1.5rem;
+  color: #2196f3;
+  padding-bottom: 1rem;
+}
