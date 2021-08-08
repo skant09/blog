@@ -7,7 +7,7 @@ const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Layouts Example</title>
+        <title>Suryakant&apos;s Blog</title>
       </Head>
 
       <Navbar />

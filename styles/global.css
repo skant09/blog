@@ -38,3 +38,9 @@ nav {
   height: var(--navbar-height);
   font-size: 1.5rem;
 }
+[class^='ri-']::before,
+[class*=' ri-']::before {
+  vertical-align: -15%;
+  padding: 0 5px 0 0;
+  color: inherit;
+}

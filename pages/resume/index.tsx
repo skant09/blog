@@ -13,9 +13,28 @@ const Resume = (): JSX.Element => {
           </div>
           <div className={style.right}>
             <span>Bangalore-India</span>
-            <span>+91 906 669 0043</span>
-            <span>s.kant@outlook.com</span>
-            <span>Github- skant09</span>
+            <a
+              href="mailto:s.kant@outlook.com"
+              rel="noopener noreferrer"
+              target="blank"
+            >
+              s.kant@outlook.com
+            </a>
+            <a
+              href="https://github.com/skant09"
+              rel="noopener noreferrer"
+              target="blank"
+            >
+              <i className="ri-github-line"></i> skant09
+            </a>
+            <a
+              href="https://www.linkedin.com/in/surya-kant-7b38033b/"
+              rel="noopener noreferrer"
+              target="blank"
+              className="ri-linkedin-line"
+            >
+              surya-kant-7b38033b
+            </a>
           </div>
         </header>
 

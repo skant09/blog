@@ -1,13 +1,25 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-export default class EcommerceDocument extends Document {
+export default class BlogDocument extends Document {
   render(): JSX.Element {
     return (
       <Html lang="en">
         <Head>
           <meta name="description" content="Blog" />
-          {/* <link rel="stylesheet" type="text/css" href="https://cdn.zivame.com/public/build/main_css.211c5781d10db81842c4.css" media="all" onLoad="this.media='all'"></link> */}
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `</style>
+                <link
+                  rel="stylesheet"
+                  href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+                  media="print"
+                  onload="this.media='all';"
+                />
+              <style>`,
+            }}
+          ></style>
         </Head>
+
         <body>
           <Main></Main>
           <NextScript />
