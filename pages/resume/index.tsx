@@ -18,6 +18,7 @@ const Resume = (): JSX.Element => {
             <span>Github- skant09</span>
           </div>
         </header>
+
         <div className={style.body}>
           <section>
             <strong>Education</strong>
@@ -25,13 +26,27 @@ const Resume = (): JSX.Element => {
               <summary>
                 <em>Dual Degree, IIT Madras </em>(2004-2009)
               </summary>
+              <p>
+                I studied Mechanical Engineering with specialisation in Energy
+                technology.
+              </p>
             </details>
             <details>
               <summary>
-                <em>Higher Secondary DAV JVM Shyamali Ranchi</em>(2004-2009)
+                <em>Senior Secondary DAV JVM Shyamali Ranchi</em>(2001-2003)
+              </summary>
+              <p>
+                I studied Physics, Chemistry, Mathematics and Engineering
+                Drawing.
+              </p>
+            </details>
+            <details>
+              <summary>
+                <em>Secondary DAV Kapildev, Ranchi</em>(2001)
               </summary>
             </details>
           </section>
+
           <section>
             <strong>Experience</strong>
             <details>
@@ -41,9 +56,11 @@ const Resume = (): JSX.Element => {
             </details>
             <details></details>
           </section>
+
           <section>
             <strong>Computer Skill</strong>
           </section>
+
           <section>
             <strong>Publications</strong>
           </section>

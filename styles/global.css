@@ -6,6 +6,11 @@
   --navbar-height: 3rem;
   --footer-height: 3rem;
 }
+@media (max-width: 70rem) {
+  :root {
+    --global-width: 90vw;
+  }
+}
 
 html,
 body {
