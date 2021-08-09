@@ -6,6 +6,11 @@ export default class BlogDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="description" content="Blog" />
+        </Head>
+
+        <body>
+          <Main></Main>
+          <NextScript />
           <style
             dangerouslySetInnerHTML={{
               __html: `</style>
@@ -18,11 +23,6 @@ export default class BlogDocument extends Document {
               <style>`,
             }}
           ></style>
-        </Head>
-
-        <body>
-          <Main></Main>
-          <NextScript />
         </body>
       </Html>
     )

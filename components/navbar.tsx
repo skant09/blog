@@ -1,9 +1,7 @@
-import style from './navbar.module.css'
-
 const Navbar = (): JSX.Element => {
   return (
     <header>
-      <nav className={style.nav}>
+      <nav className="nav">
         <ul>
           <li>
             <a href="/">Home</a>
@@ -18,6 +16,34 @@ const Navbar = (): JSX.Element => {
           </li>
         </ul>
       </nav>
+      <style jsx>{`
+        header {
+          width: 100%;
+          border-bottom: 1px solid #eaeaea;
+        }
+        .nav {
+          display: flex;
+          max-width: var(--global-width);
+          height: var(--navbar-height);
+          justify-content: space-between;
+          margin: 0 auto;
+        }
+        .nav ul {
+          margin-block-start: 0rem;
+          padding-inline-start: 0rem;
+        }
+        .nav li {
+          list-style: none;
+          display: inline-block;
+          align-items: center;
+          margin: 3px;
+          line-height: var(--navbar-height);
+        }
+
+        .nav ul.right {
+          justify-content: end;
+        }
+      `}</style>
     </header>
   )
 }

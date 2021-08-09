@@ -3,6 +3,10 @@
   max-width: var(--global-width);
   margin: 0 auto;
   text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main > section {

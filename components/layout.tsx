@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Footer from './footer'
-import styles from './layout.module.css'
 import Navbar from './navbar'
 
 const Layout: React.FC = ({ children }) => {
@@ -11,8 +10,26 @@ const Layout: React.FC = ({ children }) => {
       </Head>
 
       <Navbar />
+      <style jsx>{`
+        .main {
+          width: 100%;
+          max-width: var(--global-width);
+          margin: 0 auto;
+          text-align: center;
 
-      <main className={styles.main}>{children}</main>
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .main > section {
+          width: 80%;
+          padding-bottom: 1rem;
+          margin: 0 auto;
+        }
+      `}</style>
+
+      <main className="main">{children}</main>
 
       <Footer />
     </>
