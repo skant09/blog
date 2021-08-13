@@ -19,7 +19,7 @@ const Navbar = (): JSX.Element => {
       <style jsx>{`
         header {
           width: 100%;
-          border-bottom: 1px solid #eaeaea;
+          border-bottom: 1px solid var(--border-color);
         }
         .nav {
           display: flex;
@@ -36,8 +36,12 @@ const Navbar = (): JSX.Element => {
           list-style: none;
           display: inline-block;
           align-items: center;
-          margin: 3px;
+          margin: 0px 5px;
           line-height: var(--navbar-height);
+        }
+
+        nav a:hover {
+          color: var(--dark-grey);
         }
 
         .nav ul.right {
