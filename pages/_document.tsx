@@ -8,7 +8,7 @@ export default class BlogDocument extends Document {
           <meta name="description" content="Blog" />
         </Head>
 
-        <body>
+        <body className="solarised-dark">
           <Main></Main>
           <NextScript />
           <style

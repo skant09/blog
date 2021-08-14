@@ -14,6 +14,12 @@ const Navbar = (): JSX.Element => {
           <li>
             <a href="/resume">Resume</a>
           </li>
+          <li>
+            <span>
+              <i className="ri-moon-fill" />
+              Theme
+            </span>
+          </li>
         </ul>
       </nav>
       <style jsx>{`

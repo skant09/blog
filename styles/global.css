@@ -1,13 +1,27 @@
 :root {
   --white: #ffffff;
-  --black: #14171A;
+  --black: #14171a;
+  --yellow: #b58900;
+  --orange: #cb4c15;
+  --red: #dd322f;
+  --magenta: #d33781;
+  --violet: #6c71c3;
   --dark-black: #000000;
-  --blue: #1DA1F2;
-  --light-blue: #1B95E0;
+  --blue: #258bd1;
+  --cyan: #29a198;
+  --green: #869901;
+  --light-blue: #1b95e0;
   --dark-grey: #657786;
-  --light-grey: #2F3336;
-  --extra-light-grey: #E1E8ED;
-  --extra-extra-light-grey: #F5F8FA;
+  --light-grey: #2f3336;
+  --extra-light-grey: #e1e8ed;
+  --extra-extra-light-grey: #f5f8fa;
+
+  --solarised-dark-blue1: #012a36;
+  --solarised-dark-blue2: #083542;
+  --solarised-dark-content1: #083542;
+  --solarised-dark-content2: #657a83;
+  --solarised-light-content1: #93a1a1;
+  --solarised-light-content1: #839396;
 
   --global-rem: 10px;
   --global-width: 1200px;
@@ -37,6 +51,16 @@
     --border-color: var(--dark-grey);
   }
 }
+
+body.solarised-dark {
+    /* all your styles for dark mode here */
+    --background-primary: var(--solarised-dark-blue1);
+    --background-secondary: var(--solarised-dark-content1);
+    --color-primary: var(--solarised-dark-content2);
+    --color-highlight: var(--blue);
+    --border-color: var(--solarised-dark-blue2);
+}
+
 html,
 body {
   font-size: var(--global-rem);
@@ -160,11 +184,13 @@ code {
 .card:active {
   text-decoration: underline;
   border-color: var(--light-blue);
+  color: var(--blue);
 }
 
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  color: var(--color-highlight);
 }
 
 .card p {
