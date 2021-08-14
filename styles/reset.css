@@ -170,5 +170,8 @@ hr {
 
 input,
 select {
+  background-color: inherit;
+  color: inherit;
+  border-color: transparent;
   vertical-align: middle;
 }
