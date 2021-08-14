@@ -53,12 +53,12 @@
 }
 
 body.solarised-dark {
-    /* all your styles for dark mode here */
-    --background-primary: var(--solarised-dark-blue1);
-    --background-secondary: var(--solarised-dark-content1);
-    --color-primary: var(--solarised-dark-content2);
-    --color-highlight: var(--blue);
-    --border-color: var(--solarised-dark-blue2);
+  /* all your styles for dark mode here */
+  --background-primary: var(--solarised-dark-blue1);
+  --background-secondary: var(--solarised-dark-content1);
+  --color-primary: var(--solarised-dark-content2);
+  --color-highlight: var(--blue);
+  --border-color: var(--solarised-dark-blue2);
 }
 
 html,
