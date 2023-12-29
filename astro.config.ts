@@ -11,6 +11,9 @@ export default defineConfig({
   site: SITE.website,
   outDir: './docs',
   base: '/blog',
+  build : {
+    assets: 'assets'
+  },
   integrations: [
     tailwind({
       applyBaseStyles: false,
