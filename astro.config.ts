@@ -10,7 +10,7 @@ import { SITE } from "./src/config";
 export default defineConfig({
   site: SITE.website,
   outDir: './docs',
-  base: '/docs',
+  base: '/blog',
   integrations: [
     tailwind({
       applyBaseStyles: false,
